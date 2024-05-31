@@ -1,1 +1,2 @@
 # Hospital-Resource-Manager-Using-C
+Hospital Resource Manager is a C-based project designed to manage the resources of a hospital, including the allocation of beds, equipment, and patient management. The project offers features such as allocating resources equally among departments, allocating resources based on Dijkstra's shortest path algorithm, managing patient entries and departures, displaying patient allocations, and showing current resources and patients in each department.

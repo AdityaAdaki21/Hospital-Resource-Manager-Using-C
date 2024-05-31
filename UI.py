@@ -197,10 +197,6 @@ class HospitalResourceApp:
         if name:
             self.hospital.add_department(name, beds, equipment)
             self.departments_listbox.insert(tk.END, name)
-
-    def add_edge(self):
-        department1 = simpledialog.askstring("Add Edge", "Enter department 1 name:")
-        department2 = simpledialog.askstring("Add Edge", "Enter department 2 name:")
         distance = int(simpledialog.askstring("Add Edge", "Enter distance:"))
         if department1 and department2:
             self.hospital.add_edge(department1, department2, distance)
